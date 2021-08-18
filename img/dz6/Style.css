@@ -1,0 +1,326 @@
+*{ 
+margin:0; 
+padding:0; 
+} 
+
+.container{
+width: 1140px;
+margin: 0 auto;
+}
+
+.top {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%); 
+}
+
+.header {
+padding-top: 42px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style-type: none;
+}
+
+.top__info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(Foto/top_background.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.top_box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+} 
+.text {
+width: 425px;
+}
+
+.nebolee {
+display: flex;
+justify-content: space-between;
+padding-top: 64px;
+padding-bottom: 64px;
+}
+
+.map {
+    width: -1;
+}
+.dontknow {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card__link {
+    font-size: 14px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #5A98D0;
+text-decoration: none;
+}
+
+.project {
+margin-bottom: 112px;
+}
+
+.project__img {
+    width: 100%;
+}
+
+.project__item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project__item_margin {
+    margin-right: 32px;
+}
+
+.project__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.project__text {
+font-size: 32px;
+line-height: 46px;
+text-align: right;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+position: absolute;
+top: 64px;
+right: 64px;
+}
+
+.project__text2 {
+font-size: 28px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+position: absolute;
+text-align: left;
+top: 32px;
+left: 32px;
+}
+
+.project__text3 {
+font-size: 28px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+position: absolute;
+text-align: left;
+top: 32px;
+left: 32px;
+}
+
+body {font-family: sans-serif;} /*2-ый пункт для всего сайта
+задать разновидность шрифта*/
+
+p {
+font-size: 16px;
+line-height: 26px;
+color: #1f3f68;
+letter-spacing: 0.05em;
+opacity: 0.6;
+} /*3-ой пункт для всех параграфов присвоить класс 
+и задать стили*/
+
+.text_project {
+    width: 75%;
+    margin: 32px auto 64px;
+    color: #222222;
+    opacity: 1;
+    text-align: center;
+}
+.heading {
+    font-size: 64px;
+    color: #1f3f68;
+    width: 510px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+} /*4-ый пункт для h1 создать класс и присвоить стили */
+
+.top__button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+.title {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+} /* 5-ый пункт для h2 (на странице контакты) создать класс
+и присвоить стили*/
+
+.what-we-do {
+    padding-top: 64px;
+}
+.subtitle {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+} /*6-ой пункт для h3 создать класс и задать стили*/
+
+.subtitle2 {
+    width: 495px;
+}
+.caption { 
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f3f68;
+    width: 359px;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+} /*7-ой пункт для h4 создать класс и задать стили*/
+
+.caption1 { /*card*/
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.text1 {
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}/*8-ой пункт для всех полей ввода (input, textarea) задать
+общий класс и задать стили*/
+
+.button {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}/*9-ый пункт кнопке отправки формы присвоить класс и к нему стиль*/
+
+
+
+.footer {
+    height: 768px;
+    background: #316099;
+}
+
+.button__info {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+
+}
+
+
+.footer__info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer__header {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 340.96px;
+}
+
+.footer__text {
+width: 425px;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.6;
+padding-top: 32px;
+padding-bottom: 92px;
+}
+
+.hr {
+    height: 0px;
+    left: 0px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-top: 170px;
+}
+    
+.button__place {
+
+    margin-left: 900px;
+    margin-top: -280px;
+
+}
+
+.footercontact {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 64px;
+    
+    }
+
+    
+.contacts {
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+.copyright {
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.4;
+}
+
+.ending {
+    margin-top: 64px;
+
+}
