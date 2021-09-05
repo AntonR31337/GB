@@ -28,6 +28,7 @@ $containerWidth: 1140px;
 .input-text{
     border: 1px solid #356EAD;
     box-sizing: border-box;
+    padding: 8px;
     border-radius: 10px;
     opacity: 0.4;
 }
@@ -322,10 +323,6 @@ hr {
 .formContactUs {
     display: flex;
     flex-direction: column;
-}
-
-.input-text {
-    padding: 8px 56px 32px 56px;
 }
 
 .button-submit {
